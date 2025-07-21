@@ -60,6 +60,7 @@ const Product = () => {
             <p className='pl-2'>(122)</p>
           </div>
           <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p>
+          <p className='mt-5 text-xl text-gray-400 font-medium'>{currency}{productData.price+productData.price*0.3}</p>
           <p className='mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
 
           {/* Removed size selection here */}
@@ -74,8 +75,8 @@ const Product = () => {
           <hr className='mt-8 sm:w-4/5' />
           <div className='text-sm text-gray-500 mt-5 flex flex-col gap-1'>
             <p>100% Original product.</p>
-            <p>Cash on delivery is available on this product.</p>
-            <p>Easy return and exchange policy within 7 days.</p>
+            <p>For international orders connect directly on 8178896213.</p>
+            <p>Easy return and exchange policy within 2 days.</p>
           </div>
         </div>
       </div>
@@ -84,7 +85,7 @@ const Product = () => {
       <div className='mt-20'>
         <div className='flex'>
           <b className='border px-5 py-3 text-sm'>Description</b>
-          <p className='border px-5 py-3 text-sm'>Reviews (122)</p>
+          {/* <p className='border px-5 py-3 text-sm'>Reviews (122)</p> */}
         </div>
         <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
           <p>An e-commerce website is an online platform that facilitates the buying and selling of products or services over the internet. It serves as a virtual marketplace where businesses and individuals can showcase their products, interact with customers, and conduct transactions without the need for a physical presence. E-commerce websites have gained immense popularity due to their convenience, accessibility, and the global reach they offer.</p>

@@ -20,7 +20,8 @@ const allowedOrigins = [
   'https://www.elabyaashima.com',
   'https://admin.elabyaashima.com',
   'https://website-ela.vercel.app',
-  'https://admin-ela.vercel.app/'
+  'https://admin-ela.vercel.app',
+  'http://localhost:5173'
 ];
 
 const corsOptions = {
