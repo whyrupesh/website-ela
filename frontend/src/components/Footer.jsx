@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           
           <p className='w-full md:w-2/3 text-gray-600'>
-          ELA is a trusted artificial jewelry brand in India, offering elegant and high-quality designs 
+          ELA is a trusted Artificial jewelry brand in India, offering elegant and high-quality designs 
             for every occasion. We bring you trendy, affordable, and durable jewelry that enhances your style effortlessly.
 
           </p>
