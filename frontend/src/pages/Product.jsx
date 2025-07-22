@@ -51,23 +51,23 @@ const Product = () => {
         {/* -------- Product Info ---------- */}
         <div className='flex-1'>
           <h1 className='font-medium text-2xl mt-2'>{productData.name}</h1>
-          <div className='flex items-center gap-1 mt-2'>
+          {/* <div className='flex items-center gap-1 mt-2'>
             <img src={assets.star_icon} alt="" className="w-3 5" />
             <img src={assets.star_icon} alt="" className="w-3 5" />
             <img src={assets.star_icon} alt="" className="w-3 5" />
             <img src={assets.star_icon} alt="" className="w-3 5" />
             <img src={assets.star_dull_icon} alt="" className="w-3 5" />
             <p className='pl-2'>(122)</p>
-          </div>
+          </div> */}
           <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p>
-          <p className='mt-5 text-xl text-gray-400 font-medium'>{currency}{productData.price+productData.price*0.3}</p>
+          <p className=' text-xl text-gray-400 font-medium'><del>{currency}{productData.price+productData.price*0.3}</del></p>
           <p className='mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
 
           {/* Removed size selection here */}
 
           <button
             onClick={() => addToCart(productData._id, 'M')}
-            className='bg-black text-white px-8 py-3 text-sm active:bg-gray-700'
+            className='mt-2 bg-black text-white px-8 py-3 text-sm active:bg-gray-700'
           >
             ADD TO CART
           </button>
